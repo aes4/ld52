@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obsettings",
-  "spriteId": null,
+  "spriteId": {
+    "name": "ssettings",
+    "path": "sprites/ssettings/ssettings.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "buttons",
+    "path": "folders/Objects/buttons.yy",
   },
 }
