@@ -1,0 +1,34 @@
+//air = true
+//wall = false
+//g = 0  // gravity?
+//h = 3  // speed? velocity? I don't know
+//hd = 1  // horizontal direction: 1 = right, -1 = left
+//hc = 3  // horizontal cap
+//pl = 12  // parabola length use anything greater than 1
+//iumsl = 3  // initial umwards momentum affecting ir sl = start length
+//um = 0  // upwards momentum
+//umc = 6  // upwards momentum cap
+//iv = 0  // input value
+//ir = 1  // input rate
+//t = true
+//px = x  // previous x
+//py = y  // previous y
+//g = 0  // gravity?
+//grv = 0.2; //gravity
+//hsp = 0; //current horizontal speed
+//vsp = 0; //current vertical speed
+//hsp_walk = 4; //walk speed
+//vsp_jump = -7; //jump speed
+//g = 0
+//v = -2
+//h = 0
+g = 0.2  // gravity
+h = 0  // horizontal
+v = 0  // vertical
+dh = 4  // default horizontal
+um = -7  // upwards momentum
+b = 0  // bounce
+tb = false
+hh = 1
+thh = false
+tr = false

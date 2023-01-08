@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oplayer",
+  "name": "otb",
   "spriteId": {
-    "name": "splayer1",
-    "path": "sprites/splayer1/splayer1.yy",
+    "name": "stb",
+    "path": "sprites/stb/stb.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "splayer1",
-    "path": "sprites/splayer1/splayer1.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
