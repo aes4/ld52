@@ -8,7 +8,7 @@ if (keyboard_check(ord("W"))) {
 	//	y += vel + 1
 	//	ready = true
 	//	ldir = dir
-	//}
+	//} 
 	dir = 0
 }
 if (keyboard_check(ord("S"))) {
