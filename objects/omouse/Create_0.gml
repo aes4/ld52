@@ -1,3 +1,3 @@
 x = mouse_x
 y = mouse_y
-depth = -1
+depth = -2

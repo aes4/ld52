@@ -1,2 +1,15 @@
 debug = false
 vol = 0.5
+cycle = false
+clockplaced = false
+clock = []
+houseplaced = false
+house = []
+plotplaced = false
+plots = []
+wheatplaced = false
+wheats = []
+aw = 3
+steps = -1
+maze = false
+mazetimer = 0

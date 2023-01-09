@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obincvol",
-  "spriteId": null,
+  "spriteId": {
+    "name": "si",
+    "path": "sprites/si/si.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

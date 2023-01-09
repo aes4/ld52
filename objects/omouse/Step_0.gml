@@ -35,4 +35,14 @@ if instance_exists(obmainmenu) {
     	}
     }
 }
+if (place_meeting(x, y, obincvol)) {
+	if (mouse_button == mb_left || mouse_button == mb_right) {
+		opersistent.vol += 0.1
+	}
+}
+if (place_meeting(x, y, obdecvol)) {
+	if (mouse_button == mb_left || mouse_button == mb_right) {
+		if opersistent.vol > 0 opersistent.vol -= 0.1
+	}
+}
 if opersistent.vol < 0 opersistent.vol = 0

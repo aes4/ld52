@@ -5,8 +5,12 @@ ss = keyboard_check_pressed(vk_space)
 c = keyboard_check(vk_shift)
 
 if c {
-    sprite_index = splayerm2
-} else { sprite_index = splayerm1 }
+    if r { sprite_index = splayermcr }
+    if l { sprite_index = splayermcl }
+} else {
+    if r { sprite_index = splayermr }
+    if l { sprite_index = splayerml }
+}
 
 if mouse_button = mb_left and !instance_exists(otb) {
     mx = mouse_x
@@ -70,11 +74,13 @@ if place_meeting(x, y + 1, owall) and !s and !c {
     thh = false
 }
 if place_meeting(x, y + 1, owall) and s and !c {
+    audio_play_sound(anjump, 6, false, opersistent.vol)
     v = um
     if hh > 1 { hh -= 1/22 }
     thh = false
 }
 if place_meeting(x, y + 1, owall) and s and c {
+    audio_play_sound(ajump, 4, false, opersistent.vol)
     v = um
     thh = true
 }

@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obdecvol",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sd",
+    "path": "sprites/sd/sd.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
